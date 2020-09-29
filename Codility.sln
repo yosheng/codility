@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclicRotation", "CyclicRot
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson2", "Lesson2", "{A095FC39-66FC-4798-BB19-C0C2EB613989}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOccurrencesInArray", "OddOccurrencesInArray\OddOccurrencesInArray.csproj", "{720FB148-F733-42C5-A89F-EEB6AFFF892D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +18,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E78B906E-C88B-4F63-BA1E-04041D3416A4} = {228E4E6A-2A4F-4B75-9DE5-15838F6988A8}
 		{8923380D-CCBE-4BE0-9BD1-6DE2B2996426} = {A095FC39-66FC-4798-BB19-C0C2EB613989}
+		{720FB148-F733-42C5-A89F-EEB6AFFF892D} = {A095FC39-66FC-4798-BB19-C0C2EB613989}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E78B906E-C88B-4F63-BA1E-04041D3416A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,5 +29,9 @@ Global
 		{8923380D-CCBE-4BE0-9BD1-6DE2B2996426}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8923380D-CCBE-4BE0-9BD1-6DE2B2996426}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8923380D-CCBE-4BE0-9BD1-6DE2B2996426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720FB148-F733-42C5-A89F-EEB6AFFF892D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720FB148-F733-42C5-A89F-EEB6AFFF892D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720FB148-F733-42C5-A89F-EEB6AFFF892D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720FB148-F733-42C5-A89F-EEB6AFFF892D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

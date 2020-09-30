@@ -11,6 +11,13 @@ namespace FrogJmp
             Console.WriteLine(solutionByMath(10,85,30));
         }
 
+        /// <summary>
+        /// 44%
+        /// </summary>
+        /// <param name="X"></param>
+        /// <param name="Y"></param>
+        /// <param name="D"></param>
+        /// <returns></returns>
         static int solution(int X, int Y, int D)
         {
             int count = 0;
@@ -23,6 +30,13 @@ namespace FrogJmp
             return count;
         }
         
+        /// <summary>
+        /// 100%
+        /// </summary>
+        /// <param name="X"></param>
+        /// <param name="Y"></param>
+        /// <param name="D"></param>
+        /// <returns></returns>
         static int solutionByMath(int X, int Y, int D)
         {
             int count = 0;

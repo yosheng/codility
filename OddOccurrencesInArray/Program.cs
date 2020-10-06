@@ -14,6 +14,11 @@ namespace OddOccurrencesInArray
             Console.WriteLine(solutionByHashSet(new []{ 9, 3, 9, 3, 9, 7, 9}));
         }
 
+        /// <summary>
+        /// 22%
+        /// </summary>
+        /// <param name="A"></param>
+        /// <returns></returns>
         static int solutionBySort(int[] A)
         {
             // 先透过气泡排序由小到大
@@ -44,6 +49,11 @@ namespace OddOccurrencesInArray
             return 0;
         }
 
+        /// <summary>
+        /// 100%
+        /// </summary>
+        /// <param name="A"></param>
+        /// <returns></returns>
         static int solutionByHashSet(int[] A)
         {
             var hashset = new HashSet<int>();

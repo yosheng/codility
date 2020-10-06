@@ -15,24 +15,27 @@ namespace CyclicRotation
             Console.WriteLine("[{0}]", string.Join(", ", result2));
         }
 
+        /// <summary>
+        /// 62%
+        /// </summary>
+        /// <param name="A"></param>
+        /// <param name="K"></param>
+        /// <returns></returns>
         static int[] solution(int[] A, int K)
         {
-            if (A.Length == K)
-            {
-                return A;
-            }
+            if (A.Length == K) return A;
 
             int[] result = new int[A.Length];
 
             for (int i = 0; i < A.Length; i++)
             {
-                if (i + K >= result.Length)
+                if (i + K < result.Length)
                 {
-                    result[(i + K) - result.Length] = A[i];
+                    result[i + K] = A[i];
                 }
                 else
                 {
-                    result[i + K] = A[i];
+                    result[i + K - A.Length] = A[i];
                 }
             }
 

@@ -49,6 +49,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nesting", "Nesting\Nesting.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoneWall", "StoneWall\StoneWall.csproj", "{34B41B7A-F0BC-4F0C-B4DE-7553E04897A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson8", "Lesson8", "{E72B2956-A7A7-419B-B451-7DAA447E387E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominator", "Dominator\Dominator.csproj", "{7398EAC5-24A1-4C5E-A0E5-654A72B0B4C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +123,10 @@ Global
 		{34B41B7A-F0BC-4F0C-B4DE-7553E04897A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34B41B7A-F0BC-4F0C-B4DE-7553E04897A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34B41B7A-F0BC-4F0C-B4DE-7553E04897A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7398EAC5-24A1-4C5E-A0E5-654A72B0B4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7398EAC5-24A1-4C5E-A0E5-654A72B0B4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7398EAC5-24A1-4C5E-A0E5-654A72B0B4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7398EAC5-24A1-4C5E-A0E5-654A72B0B4C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -140,6 +148,7 @@ Global
 		{22144C53-1D0F-49E2-889B-D95F550CE3A0} = {61B82789-C4D1-429C-A76C-425927315D8D}
 		{0E285981-A2CC-467F-94C5-1BE108EE5471} = {61B82789-C4D1-429C-A76C-425927315D8D}
 		{34B41B7A-F0BC-4F0C-B4DE-7553E04897A5} = {61B82789-C4D1-429C-A76C-425927315D8D}
+		{7398EAC5-24A1-4C5E-A0E5-654A72B0B4C3} = {E72B2956-A7A7-419B-B451-7DAA447E387E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0865F38F-2B0F-4DA0-B367-313CC2A47D22}

@@ -34,6 +34,11 @@ namespace EvenSum
 
         static int GetTotalSum(int[] array, int k, bool isEven)
         {
+            if (array.Length < k)
+            {
+                return -1;
+            }
+            
             // 判断总和是基数还是偶数决定最后一个取值
             if (k == 1)
             {
@@ -57,16 +62,14 @@ namespace EvenSum
 
             // 先按照最大数字开始取值计算
             var sum = array[^1];
-            // 取出的就移出
-            array = array.SkipLast(1).ToArray();
-            
-            var nextVal = GetTotalSum(array, k - 1, sum % 2 == 0 == isEven);
-            if (nextVal < 0)
+            var newArr = array.SkipLast(1).ToArray();
+
+            var nextVal = GetTotalSum(newArr, k - 1, sum % 2 == 0 == isEven);
+            if (nextVal > 0)
             {
-                return GetTotalSum(array, k, isEven);
+                return sum + nextVal;
             }
-            
-            return sum + nextVal;
+            return GetTotalSum(newArr, k, isEven);
         }
 
         static int EvenSum(int[] array, int k)
@@ -78,8 +81,8 @@ namespace EvenSum
 
             Array.Sort(array);
 
-            return GetMaxEvenSum(array, k, true);
-            // return subEvenSum(array, k, true);
+            // return GetMaxEvenSum(array, k, true);
+            return subEvenSum(array, k, true);
         }
 
         static int GetMaxEvenSum(int[] array, int k, bool isEven)
@@ -168,7 +171,7 @@ namespace EvenSum
             else
             {
                 return subEvenSum(subArray, k, isGetEven);
-            }
+            } 
         }
 
         static int subTotalSum(int[] array, int k)
